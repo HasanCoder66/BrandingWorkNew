@@ -13,7 +13,6 @@ import Service from "./Pages/ServicesPage/Service";
 import AllServices from "./Pages/Services/AllServices";
 
 const Layout = () => {
-  // const [nav, setNav] = useState(false);
   const [nav, setNav] = useState(false);
   const openNav = () => setNav(true);
   const closeNav = () => setNav(false);
